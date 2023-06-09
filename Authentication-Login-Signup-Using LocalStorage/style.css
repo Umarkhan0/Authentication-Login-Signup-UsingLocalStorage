@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fcfcfd;
+}
+.creat{
+    height: 370px;
+    width: 320px;
+    background-color: #ffffff;
+    margin: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(214, 205, 205) ;
+}.signHead{
+    font-size: 2rem;
+    font-weight: bolder;
+}.para{
+    font-weight: lighter;
+}hr{
+    margin-top: 9px;
+}.user-input{
+    margin-top: 20px;
+    width: 9rem;
+    padding: 7px;
+}.phone-number-input{
+    width: 300px;
+    margin-top: 10px;
+    padding: 7px;
+    margin-bottom: 10px;
+}.date{
+    font-size: small;
+    font-weight: lighter;
+   
+}.age-day{
+    width: 6rem;
+    padding: 7px;
+}.gender{
+    margin-top: 10px;
+    font-size: small;
+}.radio{
+    width: 6rem;
+    background-color: #d1d1d6;
+    padding: 7px;
+    margin-left: 3px;
+    
+}.mainRadio{
+    display: flex;
+    justify-content: center;
+    
+}.flot{
+    float: right;
+}.lasttext{
+    margin-top: 10px;
+    font-size: small;
+    text-align: center
+}
