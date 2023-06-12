@@ -1,99 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Log in & Sign Up</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="creat">
-        <span class="signHead">
-            Sign up
-        </span>
-       <p class="para">It's quick and easy.</p>
-       <hr>
-       <center>
-       <input class="user-input" type="text" placeholder="First NAME">
-       <input class="user-input" type="text" placeholder="Sir name">
-       <input type="text" class="phone-number-input" placeholder="Enter your number">
-       </center>
-       <span class="date">Date of birdth?</span><br>
-       <center>
-       <select name="dropdown" class="age-day" id="">
-        <option value="1">1</option>
-        <option value="">2</option>
-        <option value="">3</option>
-        <option value="">4</option>
-        <option value="">5</option>
-        <option value="">6</option>
-        <option value="">7</option>
-        <option value="">8</option>
-        <option selected value="">9</option>
-        <option value="">10</option>
-        <option value="">11</option>
-        <option value="">12</option>
-       </select>
-      
-       <select name="dropdown" class="age-day" id="">
-        <option value="1">January</option>
-        <option value="">February</option>
-        <option value="">March</option>
-        <option value="">April</option>
-        <option value="">May</option>
-        <option value="">June</option>
-        <option value="">July</option>
-        <option value="">August</option>
-        <option selected value="">September</option>
-        <option value="">October</option>
-        <option value="">November</option>
-        <option value="">December</option>
-       </select>
-      
-       <select name="dropdown" class="age-day" id="">
-        <option value="1">2000</option>
-        <option value="">2001</option>
-        <option value="">2002</option>
-        <option value="">2003</option>
-        <option value="">2004</option>
-        <option value="">2005</option>
-        <option value="">2006</option>
-        <option value="">2007</option>
-        <option value="">2008</option>
-        <option value="">2009</option>
-        <option value="">2010</option>
-        <option value="">2011</option>
-        <option value="">2012</option>
-        <option value="">2013</option>
-        <option value="">2014</option>
-        <option value="">2015</option>
-        <option value="">2016</option>
-        <option value="">2017</option>
-        <option value="">2018</option>
-        <option value="">2019</option>
-        <option value="">2020</option>
-        <option value="">2021</option>
-        <option value="">2022</option>
-        <option value="">2023</option>
-       </select>
-       </center>
-       <p class="gender">Gender?</p>
-       <div class="mainRadio">
-       <div class="radio">
-        <label for="Male">
-        <span>Male</span>
-       <input type="radio" class="flot" name="gender" id="">
-       </div></label>
-       <div class="radio">
-        <span>FeMale</span>
-       <input type="radio" class="flot"  name="gender" id="">
-       </div>
-       <div class="radio">
-        <span>Custom</span>
-       <input type="radio" class="flot" name="gender" id="">
-       </div></div>
-<p class="lasttext">People who use our service may have uploaded your contact information to Facebook. Learn more.</p>
-    </div>
+
+    <div class="sign-up" id="card-print">
+        <div class="login">
+            <div class="input-item">
+                <input type="email" placeholder="Email" id="ligEmail">
+                <input type="password" placeholder="password" id="logPassword">
+            </div>
+            <button class="log-btn" onclick="log()">Log in</button>
+            <a href="#" class="forget">Forgotten password?</a>
+            <hr />
+            <button class="sing-uo-btn" onclick="loginPage() ">Create a new account</button>
+        </div>
+        <script src="app.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+            integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
+
 </html>
