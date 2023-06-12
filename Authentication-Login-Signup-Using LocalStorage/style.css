@@ -1,57 +1,106 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: #fcfcfd;
+
+body {
+    background-color: #f0f2f5;
 }
-.creat{
-    height: 370px;
-    width: 320px;
-    background-color: #ffffff;
-    margin: 30px;
-    box-shadow: 2px 2px 2px 2px rgb(214, 205, 205) ;
-}.signHead{
-    font-size: 2rem;
-    font-weight: bolder;
-}.para{
-    font-weight: lighter;
-}hr{
-    margin-top: 9px;
-}.user-input{
-    margin-top: 20px;
-    width: 9rem;
-    padding: 7px;
-}.phone-number-input{
+
+.sign-up {
+    margin: 0 auto;
+    height: 300px;
     width: 300px;
-    margin-top: 10px;
-    padding: 7px;
-    margin-bottom: 10px;
-}.date{
-    font-size: small;
-    font-weight: lighter;
-   
-}.age-day{
-    width: 6rem;
-    padding: 7px;
-}.gender{
-    margin-top: 10px;
-    font-size: small;
-}.radio{
-    width: 6rem;
-    background-color: #d1d1d6;
-    padding: 7px;
-    margin-left: 3px;
-    
-}.mainRadio{
+    position: absolute;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+input {
     display: flex;
     justify-content: center;
-    
-}.flot{
-    float: right;
-}.lasttext{
+    align-items: center;
+    margin: 0 auto;
+    padding: 9px;
+    border-radius: 10px;
+    width: 260px;
+    border: 0.5px #1877f2 solid;
+    font-size: medium;
     margin-top: 10px;
-    font-size: small;
-    text-align: center
+    outline: #1877f2;
+}
+
+.user-read {
+    margin-left: 20px;
+    padding: 6px;
+}
+
+.sing-uo-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 18px;
+    padding: 8px;
+    width: 170px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #42b72a;
+    border: 2px #42b72a solid;
+    color: white;
+    font-weight: bold;
+}
+
+.login {
+    height: 100px !important;
+    width: 300px;
+    position: absolute;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.log-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    border: 2px #1877f2 solid;
+}
+
+.forget {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #1877f2;
+}
+
+hr {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    width: 220px;
+    margin-top: 10px;
+}
+
+.arrow {
+    cursor: pointer;
+    width: 17px;
 }
